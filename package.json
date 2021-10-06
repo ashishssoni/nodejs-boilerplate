@@ -13,9 +13,8 @@
     "prepare": "husky install",
     "lint-staged": "lint-staged"
   },
-  "author": "Ashish Soni <ashish.s233@hdfclife.com>",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/hdfclife-adcat/node-rest-api-boilerplate/src/master/",
+  "author": "Ashish Soni <https://github.com/ashishssoni>",
+  "homepage": "https://github.com/ashishssoni/nodejs-boilerplate",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "aws-sdk": "^2.974.0",
