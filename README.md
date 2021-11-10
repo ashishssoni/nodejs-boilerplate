@@ -77,7 +77,7 @@ Make a copy and rename it to deploy.sh and get the mandatory values of each env 
 
 - `CORS Env `variables are neccessary and security team requiremtns
 - If you wanna run server on local machine then set `NODE_ENV` to local else name it dev, uat, prod for dev, staging and prod server respectively.
-- `DB CONNECTIONS` fields are mandatory, just put value `Y` if you wanna use the respective DB or else put a ~.
+- `DB CONNECTIONS` fields are mandatory, just put value `Y` if you wanna use the respective DB or else put a `N`.
 - `JOURNEY DISABLE` is non mandatory but can be used if some downtime of app is provided, just put date and time in IST format.
 - `ENCRYPTION CONFIG `is mandatory and if you wanna enable encryption, just put `ENABLE_ENCRYPTION` value as `Y`, Also generate a new key everytime when you move to uat or prod from the [link](https://travistidwell.com/jsencrypt/demo/)
 - For using respective database, contact devops and get the desired env variables to use the same.
@@ -124,9 +124,9 @@ Boiler plate for node js rest APIs:
 ## Other Features
 
 - For Enabling the encryption, pass value `Y` in `ENABLE_ENCRYPTION` env variable.
-- In built mongoDB connection (just take the desired mongo env variables from devops)
-- In built Redis connection (just take the desired redis env variables from devops)
-- In built PG connection (just take the desired redis env variables from devops)
+- In built mongoDB connection (just take the desired mongo env variables)
+- In built Redis connection (just take the desired redis env variables)
+- In built PG connection (just take the desired redis env variables)
 - Added Request Response logs with express-requests-logger
 - Added Script tag check middleware with all the basic infosec obervation check
 - Added Rate Limiter
